@@ -8,7 +8,7 @@ Converting objects to strings is a rather complex affair. Let's consider some of
 JSON.stringify is a great tool for rudimentary string conversion, however it ignores a lot of important information:
 
 | Issue | Example input | Example output |
-| --- | --- |
+| --- | --- | --- |
 | function | `{ f() {} }` | `'{}'` |
 | class information | | |
 | `undefined` | | |
